@@ -1,5 +1,6 @@
 package commands;
 
+import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -36,7 +37,7 @@ public class Broomstick implements CommandExecutor{
 		
 		ItemMeta meta = rod.getItemMeta();
 		
-		meta.setDisplayName("BroomStick");
+		meta.setDisplayName(ChatColor.RED + "BroomStick");
 		
 		rod.setItemMeta(meta);
 		
