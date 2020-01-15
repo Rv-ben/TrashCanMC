@@ -14,10 +14,8 @@ import me.rubenbramasco.TrashCanMC;
 
 public class Broomstick implements CommandExecutor{
 	
-	private TrashCanMC plugin;
 	
 	public Broomstick(TrashCanMC plugin) {
-		this.plugin = plugin;
 		plugin.getCommand("broomstick").setExecutor(this);
 	}
 
